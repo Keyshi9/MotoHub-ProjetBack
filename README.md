@@ -39,6 +39,7 @@ MotoHub est un backend (sans interface graphique obligatoire) qui expose, via un
 |---|---|
 | [`docs/cahier-des-charges.md`](docs/cahier-des-charges.md) | Cahier des charges MotoHub v1.0 (transcription complète du PDF) |
 | [`docs/consignes-projet-backend.md`](docs/consignes-projet-backend.md) | Consignes de l'enseignant pour le Projet Backend |
+| [`docs/mcd.md`](docs/mcd.md) | MCD (Merise) : schéma, dictionnaire des données, cardinalités ; PDF dans `docs/mcd/` |
 | [`docs/grille-evaluation.md`](docs/grille-evaluation.md) | Grille d'évaluation du Projet Backend (66 points) et suivi des critères |
 | [`docs/journal-de-travail.md`](docs/journal-de-travail.md) | Journal de travail (critère d'évaluation) |
 
@@ -83,7 +84,9 @@ Les versions exactes des dépendances seront précisées dans ce README au fil d
 
 ## Modèle de données
 
-Cinq entités. Les livrables **MCD** et **MLD** (PDF) seront ajoutés dans le dossier `docs/`.
+Cinq entités. Le **MCD** est dans [`docs/mcd.md`](docs/mcd.md) (PDF : [`docs/mcd/mcd-motohub.pdf`](docs/mcd/mcd-motohub.pdf)) ; le **MLD** (PDF) sera ajouté dans `docs/`.
+
+![MCD MotoHub](docs/mcd/mcd-motohub.svg)
 
 | Entité | Rôle | Attributs principaux |
 |---|---|---|

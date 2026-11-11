@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm" viewBox="0 0 1400 990" font-family="DejaVu Sans, Verdana, Arial, sans-serif">
+<rect width="1400" height="990" fill="#ffffff"/>
+<text x="60" y="52" font-size="30" font-weight="bold" fill="#1f2937">MCD — MotoHub</text>
+<text x="60" y="80" font-size="15" fill="#4b5563">API REST de gestion d'un garage moto · Modèle conceptuel de données (notation Merise) · CPNV Sainte-Croix · SI-CA2a · Sellé Sow · version initiale du 11 nov. 2026</text>
+<line x1="60" y1="96" x2="1340" y2="96" stroke="#cbd5e1" stroke-width="1.5"/>
+<line x1="320" y1="242" x2="445" y2="242" stroke="#1e3a8a" stroke-width="2"/>
+<line x1="570" y1="242" x2="445" y2="242" stroke="#1e3a8a" stroke-width="2"/>
+<line x1="830" y1="242" x2="955" y2="242" stroke="#1e3a8a" stroke-width="2"/>
+<line x1="1080" y1="242" x2="955" y2="242" stroke="#1e3a8a" stroke-width="2"/>
+<line x1="190" y1="354" x2="190" y2="650" stroke="#1e3a8a" stroke-width="2"/>
+<line x1="570" y1="650" x2="190" y2="650" stroke="#1e3a8a" stroke-width="2"/>
+<line x1="700" y1="354" x2="700" y2="457" stroke="#1e3a8a" stroke-width="2"/>
+<line x1="700" y1="560" x2="700" y2="457" stroke="#1e3a8a" stroke-width="2"/>
+<line x1="830" y1="592" x2="955" y2="470" stroke="#1e3a8a" stroke-width="2"/>
+<line x1="1130" y1="378" x2="955" y2="470" stroke="#1e3a8a" stroke-width="2"/>
+<line x1="830" y1="660" x2="955" y2="660" stroke="#1e3a8a" stroke-width="2"/>
+<line x1="1080" y1="660" x2="955" y2="660" stroke="#1e3a8a" stroke-width="2"/>
+<line x1="1290" y1="378" x2="1290" y2="469" stroke="#1e3a8a" stroke-width="2"/>
+<line x1="1290" y1="560" x2="1290" y2="469" stroke="#1e3a8a" stroke-width="2"/>
+<rect x="60" y="130" width="260" height="228" rx="6" fill="#ffffff" stroke="#1e3a8a" stroke-width="2.5"/>
+<path d="M60,168 V136 Q60,130 66,130 H314 Q320,130 320,136 V168 Z" fill="#dbeafe" stroke="#1e3a8a" stroke-width="2.5"/>
+<text x="190.0" y="156" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">CLIENT</text>
+<text x="76" y="191" font-size="15" font-weight="bold" text-decoration="underline" fill="#1f2937">id</text>
+<line x1="60" y1="202" x2="320" y2="202" stroke="#1e3a8a" stroke-width="1.5"/>
+<text x="76" y="222" font-size="15" fill="#1f2937">nom</text>
+<text x="76" y="246" font-size="15" fill="#1f2937">prénom</text>
+<text x="76" y="270" font-size="15" fill="#1f2937">e-mail</text>
+<text x="76" y="294" font-size="15" fill="#1f2937">téléphone</text>
+<text x="76" y="318" font-size="15" fill="#1f2937">adresse</text>
+<text x="76" y="342" font-size="15" fill="#1f2937">date de création</text>
+<rect x="570" y="130" width="260" height="228" rx="6" fill="#ffffff" stroke="#1e3a8a" stroke-width="2.5"/>
+<path d="M570,168 V136 Q570,130 576,130 H824 Q830,130 830,136 V168 Z" fill="#dbeafe" stroke="#1e3a8a" stroke-width="2.5"/>
+<text x="700.0" y="156" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">MOTO</text>
+<text x="586" y="191" font-size="15" font-weight="bold" text-decoration="underline" fill="#1f2937">id</text>
+<line x1="570" y1="202" x2="830" y2="202" stroke="#1e3a8a" stroke-width="1.5"/>
+<text x="586" y="222" font-size="15" fill="#1f2937">marque</text>
+<text x="586" y="246" font-size="15" fill="#1f2937">modèle</text>
+<text x="586" y="270" font-size="15" fill="#1f2937">année</text>
+<text x="586" y="294" font-size="15" fill="#1f2937">immatriculation</text>
+<text x="586" y="318" font-size="15" fill="#1f2937">numéro de châssis</text>
+<text x="586" y="342" font-size="15" fill="#1f2937">kilométrage</text>
+<rect x="1080" y="130" width="260" height="252" rx="6" fill="#ffffff" stroke="#1e3a8a" stroke-width="2.5"/>
+<path d="M1080,168 V136 Q1080,130 1086,130 H1334 Q1340,130 1340,136 V168 Z" fill="#dbeafe" stroke="#1e3a8a" stroke-width="2.5"/>
+<text x="1210.0" y="156" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">INTERVENTION</text>
+<text x="1096" y="191" font-size="15" font-weight="bold" text-decoration="underline" fill="#1f2937">id</text>
+<line x1="1080" y1="202" x2="1340" y2="202" stroke="#1e3a8a" stroke-width="1.5"/>
+<text x="1096" y="222" font-size="15" fill="#1f2937">description</text>
+<text x="1096" y="246" font-size="15" fill="#1f2937">date de début</text>
+<text x="1096" y="270" font-size="15" fill="#1f2937">date de fin</text>
+<text x="1096" y="294" font-size="15" fill="#1f2937">statut</text>
+<text x="1096" y="318" font-size="15" fill="#1f2937">coût estimé</text>
+<text x="1096" y="342" font-size="15" fill="#1f2937">coût final</text>
+<text x="1096" y="366" font-size="15" fill="#1f2937">notes</text>
+<rect x="570" y="560" width="260" height="180" rx="6" fill="#ffffff" stroke="#1e3a8a" stroke-width="2.5"/>
+<path d="M570,598 V566 Q570,560 576,560 H824 Q830,560 830,566 V598 Z" fill="#dbeafe" stroke="#1e3a8a" stroke-width="2.5"/>
+<text x="700.0" y="586" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">RENDEZ-VOUS</text>
+<text x="586" y="621" font-size="15" font-weight="bold" text-decoration="underline" fill="#1f2937">id</text>
+<line x1="570" y1="632" x2="830" y2="632" stroke="#1e3a8a" stroke-width="1.5"/>
+<text x="586" y="652" font-size="15" fill="#1f2937">date et heure</text>
+<text x="586" y="676" font-size="15" fill="#1f2937">motif</text>
+<text x="586" y="700" font-size="15" fill="#1f2937">statut</text>
+<text x="586" y="724" font-size="15" fill="#1f2937">notes</text>
+<rect x="1080" y="560" width="260" height="204" rx="6" fill="#ffffff" stroke="#1e3a8a" stroke-width="2.5"/>
+<path d="M1080,598 V566 Q1080,560 1086,560 H1334 Q1340,560 1340,566 V598 Z" fill="#dbeafe" stroke="#1e3a8a" stroke-width="2.5"/>
+<text x="1210.0" y="586" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">UTILISATEUR</text>
+<text x="1096" y="621" font-size="15" font-weight="bold" text-decoration="underline" fill="#1f2937">id</text>
+<line x1="1080" y1="632" x2="1340" y2="632" stroke="#1e3a8a" stroke-width="1.5"/>
+<text x="1096" y="652" font-size="15" fill="#1f2937">nom</text>
+<text x="1096" y="676" font-size="15" fill="#1f2937">e-mail</text>
+<text x="1096" y="700" font-size="15" fill="#1f2937">mot de passe haché</text>
+<text x="1096" y="724" font-size="15" fill="#1f2937">rôle</text>
+<text x="1096" y="748" font-size="15" fill="#1f2937">date de création</text>
+<ellipse cx="445" cy="242" rx="80" ry="27" fill="#fef3c7" stroke="#1e3a8a" stroke-width="2"/>
+<text x="445" y="247" text-anchor="middle" font-size="13" font-weight="bold" fill="#1f2937">POSSÉDER</text>
+<ellipse cx="955" cy="242" rx="62" ry="27" fill="#fef3c7" stroke="#1e3a8a" stroke-width="2"/>
+<text x="955" y="247" text-anchor="middle" font-size="13" font-weight="bold" fill="#1f2937">AVOIR</text>
+<ellipse cx="190" cy="650" rx="66" ry="27" fill="#fef3c7" stroke="#1e3a8a" stroke-width="2"/>
+<text x="190" y="655" text-anchor="middle" font-size="13" font-weight="bold" fill="#1f2937">PRENDRE</text>
+<ellipse cx="700" cy="457" rx="76" ry="27" fill="#fef3c7" stroke="#1e3a8a" stroke-width="2"/>
+<text x="700" y="462" text-anchor="middle" font-size="13" font-weight="bold" fill="#1f2937">CONCERNER</text>
+<ellipse cx="955" cy="470" rx="86" ry="27" fill="#fef3c7" stroke="#1e3a8a" stroke-width="2"/>
+<text x="955" y="475" text-anchor="middle" font-size="13" font-weight="bold" fill="#1f2937">DONNER LIEU À</text>
+<ellipse cx="955" cy="660" rx="62" ry="27" fill="#fef3c7" stroke="#1e3a8a" stroke-width="2"/>
+<text x="955" y="665" text-anchor="middle" font-size="13" font-weight="bold" fill="#1f2937">CRÉER</text>
+<ellipse cx="1290" cy="469" rx="58" ry="27" fill="#fef3c7" stroke="#1e3a8a" stroke-width="2"/>
+<text x="1290" y="474" text-anchor="middle" font-size="13" font-weight="bold" fill="#1f2937">GÉRER</text>
+<text x="330" y="232" text-anchor="start" font-size="15" font-weight="bold" fill="#b91c1c" stroke="#ffffff" stroke-width="4" paint-order="stroke">(0,n)</text>
+<text x="560" y="232" text-anchor="end" font-size="15" font-weight="bold" fill="#b91c1c" stroke="#ffffff" stroke-width="4" paint-order="stroke">(1,1)</text>
+<text x="840" y="232" text-anchor="start" font-size="15" font-weight="bold" fill="#b91c1c" stroke="#ffffff" stroke-width="4" paint-order="stroke">(0,n)</text>
+<text x="1070" y="232" text-anchor="end" font-size="15" font-weight="bold" fill="#b91c1c" stroke="#ffffff" stroke-width="4" paint-order="stroke">(1,1)</text>
+<text x="200" y="378" text-anchor="start" font-size="15" font-weight="bold" fill="#b91c1c" stroke="#ffffff" stroke-width="4" paint-order="stroke">(0,n)</text>
+<text x="560" y="640" text-anchor="end" font-size="15" font-weight="bold" fill="#b91c1c" stroke="#ffffff" stroke-width="4" paint-order="stroke">(1,1)</text>
+<text x="710" y="378" text-anchor="start" font-size="15" font-weight="bold" fill="#b91c1c" stroke="#ffffff" stroke-width="4" paint-order="stroke">(0,n)</text>
+<text x="710" y="548" text-anchor="start" font-size="15" font-weight="bold" fill="#b91c1c" stroke="#ffffff" stroke-width="4" paint-order="stroke">(1,1)</text>
+<text x="842" y="580" text-anchor="start" font-size="15" font-weight="bold" fill="#b91c1c" stroke="#ffffff" stroke-width="4" paint-order="stroke">(0,1)</text>
+<text x="1138" y="402" text-anchor="start" font-size="15" font-weight="bold" fill="#b91c1c" stroke="#ffffff" stroke-width="4" paint-order="stroke">(0,1)</text>
+<text x="842" y="650" text-anchor="start" font-size="15" font-weight="bold" fill="#b91c1c" stroke="#ffffff" stroke-width="4" paint-order="stroke">(0,1)</text>
+<text x="1070" y="650" text-anchor="end" font-size="15" font-weight="bold" fill="#b91c1c" stroke="#ffffff" stroke-width="4" paint-order="stroke">(0,n)</text>
+<text x="1300" y="402" text-anchor="start" font-size="15" font-weight="bold" fill="#b91c1c" stroke="#ffffff" stroke-width="4" paint-order="stroke">(0,1)</text>
+<text x="1300" y="548" text-anchor="start" font-size="15" font-weight="bold" fill="#b91c1c" stroke="#ffffff" stroke-width="4" paint-order="stroke">(0,n)</text>
+<rect x="60" y="800" width="560" height="168" rx="6" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="76" y="826" font-size="15" font-weight="bold" fill="#1f2937">Légende</text>
+<text x="76" y="850" font-size="13" fill="#4b5563">Rectangle : entité (nom en majuscules, identifiant souligné en tête)</text>
+<text x="76" y="871" font-size="13" fill="#4b5563">Ellipse : association (verbe), reliée aux entités par un trait</text>
+<text x="76" y="892" font-size="13" fill="#4b5563">(min,max) : cardinalités de l'entité dans l'association</text>
+<text x="76" y="913" font-size="13" fill="#4b5563">0,n = zéro à plusieurs · 1,1 = un et un seul · 0,1 = zéro ou un</text>
+<text x="76" y="934" font-size="13" fill="#4b5563">Les clés étrangères n'apparaissent pas dans le MCD : elles naîtront</text>
+<text x="76" y="955" font-size="13" fill="#4b5563">des associations lors du passage au MLD.</text>
+<rect x="650" y="800" width="690" height="168" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="666" y="826" font-size="15" font-weight="bold" fill="#1f2937">Contraintes non exprimables par le MCD (règles métier du cahier des charges)</text>
+<text x="666" y="850" font-size="13" fill="#4b5563">RB-07 : le client d'un rendez-vous est le propriétaire de la moto concernée.</text>
+<text x="666" y="871" font-size="13" fill="#4b5563">RB-01 : e-mail d'utilisateur unique · RB-04 : immatriculation et n° de châssis uniques si renseignés.</text>
+<text x="666" y="892" font-size="13" fill="#4b5563">RB-09 / RB-10 : statuts de rendez-vous et d'intervention limités à des valeurs définies.</text>
+<text x="666" y="913" font-size="13" fill="#4b5563">RB-11 : kilométrage, coût estimé et coût final non négatifs.</text>
+<text x="666" y="934" font-size="13" fill="#4b5563">RB-02 : le mot de passe est stocké haché, jamais en clair.</text>
+<text x="1340" y="982" text-anchor="end" font-size="11" fill="#94a3b8">Source : cahier des charges MotoHub v1.0, section 4 « Modèle de données »</text>
+</svg>
