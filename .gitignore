@@ -1,0 +1,22 @@
+# Dépendances
+node_modules/
+
+# Variables d'environnement et secrets (ne jamais versionner le .env : il contient le secret JWT et les accès MySQL)
+.env
+.env.*
+!.env.example
+
+# Journaux
+logs/
+*.log
+npm-debug.log*
+
+# Fichiers système et éditeurs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Sorties de couverture / build
+coverage/
+dist/
