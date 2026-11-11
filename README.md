@@ -24,13 +24,14 @@ MotoHub est un backend (sans interface graphique obligatoire) qui expose, via un
 7. [Endpoints](#endpoints)
 8. [Gestion des erreurs](#gestion-des-erreurs)
 9. [Planification](#planification)
-10. [Livrables et échéances](#livrables-et-échéances)
-11. [Exigences techniques de l'enseignant](#exigences-techniques-de-lenseignant)
-12. [Critères d'acceptation](#critères-dacceptation)
-13. [Risques](#risques)
-14. [Évolutions futures](#évolutions-futures)
-15. [Points d'attention](#points-dattention)
-16. [Installation et utilisation](#installation-et-utilisation)
+10. [Grille d'évaluation](#grille-dévaluation)
+11. [Livrables et échéances](#livrables-et-échéances)
+12. [Exigences techniques de l'enseignant](#exigences-techniques-de-lenseignant)
+13. [Critères d'acceptation](#critères-dacceptation)
+14. [Risques](#risques)
+15. [Évolutions futures](#évolutions-futures)
+16. [Points d'attention](#points-dattention)
+17. [Installation et utilisation](#installation-et-utilisation)
 
 ## Documentation du dépôt
 
@@ -38,6 +39,7 @@ MotoHub est un backend (sans interface graphique obligatoire) qui expose, via un
 |---|---|
 | [`docs/cahier-des-charges.md`](docs/cahier-des-charges.md) | Cahier des charges MotoHub v1.0 (transcription complète du PDF) |
 | [`docs/consignes-projet-backend.md`](docs/consignes-projet-backend.md) | Consignes de l'enseignant pour le Projet Backend |
+| [`docs/grille-evaluation.md`](docs/grille-evaluation.md) | Grille d'évaluation du Projet Backend (66 points) et suivi des critères |
 | [`docs/journal-de-travail.md`](docs/journal-de-travail.md) | Journal de travail (critère d'évaluation) |
 
 ## Objectifs et périmètre
@@ -197,6 +199,18 @@ Période : 4 nov. 2026 → 13 janv. 2027 · 36 périodes (27 h) · planification
 
 Le suivi détaillé (backlog, avancement par sprint) se fait dans le **GitHub Project** : [MotoHub - Projet Backend (agile)](https://github.com/users/Keyshi9/projects/3)
 
+## Grille d'évaluation
+
+Détail complet dans [`docs/grille-evaluation.md`](docs/grille-evaluation.md). Total : **66 points**.
+
+| Catégorie | Points | Critères |
+|---|---:|---|
+| Qualité | 12 | Architecture, commentaires, documentation générée de l'API, indentation / mise en page |
+| Codage | 6 | Pas de répétitions, nommage correct |
+| Gestion | 12 | GitHub à jour, journal de travail, GitHub Project, stories et tests |
+| Fonctionnalités | 24 | Sécurisation, MCD, MLD, **CRUD sur au moins 4 entités (12 pts)**, gestion des erreurs |
+| Présentation | 12 | Déroulement, explication des fonctionnalités, réponses aux questions (méthode et technique) |
+
 ## Livrables et échéances
 
 Échéances fixées par les consignes de l'enseignant :
@@ -218,9 +232,9 @@ Livrables complémentaires du cahier des charges : README, collection Postman (a
 - Respect des **conventions de nommage du langage** et des **conventions du CPNV** pour la modélisation de la base de données.
 - Cas d'erreur traités : messages d'erreur, pas de bug bloquant.
 - API **sécurisée** (gestion d'un token).
-- Documentation de l'API générable à partir des commentaires du code (facultatif).
+- Documentation de l'API générée à partir des commentaires du code : les consignes parlent d'une possibilité, mais la grille la note (3 points) — à considérer comme attendue.
 - Utilisation de l'IA : comme aide et pour des points ponctuels uniquement ; l'IA n'écrit pas le code et ne réfléchit pas à la place de l'étudiant.
-- Évaluation : documentation, journal de travail, respect des normes, qualité, etc.
+- Évaluation : voir la [grille d'évaluation](docs/grille-evaluation.md) (66 points).
 
 ## Critères d'acceptation
 
@@ -269,6 +283,7 @@ Hors périmètre v1.0 : interface web pour le personnel, application mobile, not
 - **Échéance de la release v1.0** : les consignes demandent la release à la **semaine 7**, alors que le planning du cahier des charges prévoit la stabilisation et la remise en semaine 8 (Sprint 5).
 - **Gestion des utilisateurs (EF-03)** : aucun endpoint de gestion des comptes (hors login/register) n'apparaît dans la vue d'ensemble ; à définir.
 - **`POST /api/auth/register`** : protection (publique, restreinte, réservée à un rôle) à décider.
+- **Documentation de l'API** : facultative dans les consignes, mais notée dans la grille (3 points) : à produire.
 - **Rôles, statuts et droits par rôle** : à figer dans la documentation de l'API.
 
 ## Installation et utilisation
