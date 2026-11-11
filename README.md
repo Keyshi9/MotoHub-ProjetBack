@@ -10,7 +10,7 @@ MotoHub est un backend (sans interface graphique obligatoire) qui expose, via un
 | Mandante | Violeta Seretan |
 | Période | 4 novembre 2026 → 13 janvier 2027 |
 | Charge | 36 périodes (27 h) |
-| Méthode | Agile, 5 sprints, suivi avec **GitHub Project** : _(lien à ajouter dès que le GitHub Project est créé)_ |
+| Méthode | Agile, 5 sprints, suivi avec **GitHub Project** : [MotoHub - Projet Backend (agile)](https://github.com/users/Keyshi9/projects/3) |
 | Statut | En cours de réalisation — release visée : **v1.0** |
 
 ## Sommaire
@@ -195,7 +195,7 @@ Période : 4 nov. 2026 → 13 janv. 2027 · 36 périodes (27 h) · planification
 | Sprint 4 | 7 | Suivi opérationnel | Endpoints Rendez-vous et Interventions, gestion des erreurs, autorisations, intégration | 8 p. |
 | Sprint 5 | 8 | Stabilisation et remise | Tests de bout en bout, README, collection Postman, MLD, nettoyage du code, préparation de la remise | 5 p. |
 
-Le suivi détaillé (backlog, avancement par sprint) se fait dans le **GitHub Project** : _(lien à ajouter dès que le GitHub Project est créé)_
+Le suivi détaillé (backlog, avancement par sprint) se fait dans le **GitHub Project** : [MotoHub - Projet Backend (agile)](https://github.com/users/Keyshi9/projects/3)
 
 ## Livrables et échéances
 
